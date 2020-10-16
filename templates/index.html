@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Authentication</title>
+
+	</head>
+	<body>
+		<h1>Hello {{ cred.get_name().capitalize() }}</h1>
+		{% if cred.get_id() != 0 %}
+		<h2>Welcome id: {{ cred.get_id() }}</h2>
+		{% endif %}
+	</body>
+
+
+
+</html>

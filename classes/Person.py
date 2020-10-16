@@ -1,4 +1,4 @@
-from utilities.Auth import *
+# from utilities.Auth import *
 
 class Person:
 	def __init__(self, username, password):
@@ -6,6 +6,7 @@ class Person:
 		self.password = password
 
 
-
+"""
 p = Person("erees", "123Apabsa")
 print(Auth.valid_password(p.password))
+"""
